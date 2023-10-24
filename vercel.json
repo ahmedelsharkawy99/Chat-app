@@ -4,16 +4,13 @@
       "src": "/"
     },
     {
-      "src": "/login",
-      "dist": "/"
+      "src": "/login"
     },
     {
-      "src": "/signup",
-      "dist": "/"
+      "src": "/signup"
     },
     {
-      "src": "/*",
-      "dist": "/"
+      "src": "/*"
     }
   ]
 }
