@@ -1,0 +1,15 @@
+.auth__form input {
+  padding: calc(var(--padding-10) + 5px);
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.auth__form input::placeholder {
+  color: rgb(175, 175, 175);
+}
+
+.auth__form input:focus {
+  outline: none;
+  border-bottom-width: 2px;
+}

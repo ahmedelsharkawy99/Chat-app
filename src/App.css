@@ -1,0 +1,82 @@
+/* Start Auth Classes */
+.form_container {
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_wrapper,
+form.auth__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_wrapper {
+  background-color: var(--white-color);
+  padding: calc(var(--padding-10) * 2) calc(var(--padding-10) * 6);
+  border-radius: 10px;
+  gap: var(--gap);
+}
+
+.logo,
+.title,
+.form_wrapper p {
+  color: var(--bg-color-2);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 12px;
+}
+
+form {
+  gap: calc(var(--gap) + 5px);
+  width: 100%;
+  min-width: 300px;
+}
+
+form .auth__form-input__container {
+  width: 100%;
+}
+
+form label {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  width: 100%;
+  color: #8da4f1;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+form label img {
+  width: 32px;
+}
+
+form button {
+  color: var(--white-color);
+  background-color: #7b96ec;
+  border: none;
+  padding: var(--padding-10);
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_wrapper p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* End Auth Classes */

@@ -1,0 +1,10 @@
+.error__list {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.error {
+  margin: 10px 0;
+  color: rgba(255, 0, 0, 0.7);
+  border-color: rgba(255, 0, 0, 0.7) !important;
+}

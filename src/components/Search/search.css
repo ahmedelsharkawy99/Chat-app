@@ -1,0 +1,15 @@
+.search {
+  border-bottom: 1px solid gray;
+}
+.search__form {
+  padding: var(--padding-10);
+}
+
+.search__form input {
+  all: unset;
+  color: var(--white-color);
+}
+
+.search__form input::placeholder {
+  color: var(--lightgray-color);
+}

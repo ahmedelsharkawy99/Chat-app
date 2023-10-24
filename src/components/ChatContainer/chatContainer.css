@@ -1,0 +1,24 @@
+.chat__container {
+  flex: 2;
+}
+
+.chat__conatiner-info {
+  height: 70px;
+  padding: var(--padding-10);
+  background-color: var(--bg-color-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--lightgray-color);
+}
+
+.chat-info__icons {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.chat-info__icons img {
+  height: 24px;
+  cursor: pointer;
+}
